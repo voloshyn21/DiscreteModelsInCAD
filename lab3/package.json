@@ -1,0 +1,11 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "description": "flow's graph",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Voloshyn Ivan",
+  "license": "NULP"
+}

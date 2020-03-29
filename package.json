@@ -1,0 +1,15 @@
+{
+  "name": "discretemodelsincad",
+  "version": "1.0.0",
+  "description": "All labs for Discrete Models in CAD, NULP, 2020, KN416",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "node lab1/app.js",
+    "start2": "node lab2/app.js",
+    "start3": "node lab3/app.js",
+    "start4": "node lab4/app.js",
+    "start5": "node lab5/app.js"
+  },
+  "author": "Voloshyn Ivan",
+  "license": "NULP"
+}

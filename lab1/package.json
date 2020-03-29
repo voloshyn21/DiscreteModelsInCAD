@@ -1,0 +1,11 @@
+{
+  "name": "kruskal",
+  "version": "1.0.0",
+  "description": "Kruskal's algorithm",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Voloshyn Ivan",
+  "license": "NULP"
+}

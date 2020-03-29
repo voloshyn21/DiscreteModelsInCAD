@@ -1,0 +1,16 @@
+{
+  "name": "isomorphic",
+  "version": "1.0.0",
+  "dependencies": {
+    "datascript": "latest",
+    "ramda": "latest"
+  },
+  "description": "Graph isomorphisms",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Voloshyn Ivan",
+  "license": "NULP"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eulerian",
+  "version": "1.0.0",
+  "description": "Eulerian's algorithm",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Voloshyn Ivan",
+  "license": "NULP"
+}
