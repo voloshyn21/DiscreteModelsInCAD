@@ -8,7 +8,8 @@
     "start2": "node lab2/app.js",
     "start3": "node lab3/app.js",
     "start4": "node lab4/app.js",
-    "start5": "node lab5/app.js"
+    "start5": "node lab5/app.js",
+    "start6": "node RGR/app.js"
   },
   "author": "Voloshyn Ivan",
   "license": "NULP"

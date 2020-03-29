@@ -1,0 +1,16 @@
+{
+  "name": "maxmatching",
+  "version": "1.0.0",
+  "description": "Hungarian algorithm, maximal and minimal matching",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "authors": [
+    "Voloshyn Ivan",
+    "Khrystyna Sviatoslav",
+    "Kozlovskiy Volodymyr",
+    "Kyziakiv Marko"
+  ],
+  "license": "NULP"
+}
