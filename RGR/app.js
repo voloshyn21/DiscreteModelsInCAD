@@ -1,4 +1,4 @@
-const hgAlgorithm = require('./Hungarian');
+const hgAlgorithm = require('./services/hgAlgorithm');
 
 const workerToJob = [
   [82, 83, 69, 92],
@@ -7,12 +7,15 @@ const workerToJob = [
   [8, 9, 98, 23],
 ];
 
+console.log('Початкові дані:');
+console.table(workerToJob);
+console.log('\nРезультат виконання роботи:');
 console.log(`Оптимальним є призначення робочого 1 на роботу 3, працівника 2 на роботу 2, працівника 3 на роботу 1 та працівника 4 на роботу 4.\n` +
-  `Загальний мінімальний час тоді становить 69 + 37 + 11 + 23:`);
+  `Загальний мінімальний час:`);
 console.log(hgAlgorithm(workerToJob, "min"));
-
+console.log();
 console.log(`Максимальний є призначення робочого 1 на роботу 2, працівника 1 на роботу 2, працівника 3 на роботу 4 та працівника 4 на роботу 3.\n` +
-  `Загальний максимальний час тоді становить 83 + 77 + 86 + 98:`);
+  `Загальний максимальний час:`);
 console.log(hgAlgorithm(workerToJob, "max"));
 
 // Tests data
