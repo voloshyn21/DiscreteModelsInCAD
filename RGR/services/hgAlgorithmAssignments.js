@@ -72,7 +72,6 @@ function hgAlgorithmAssignments(array, sumType) {
       }
     }
   }
-  console.log(assignments);
   return assignments;
 }
 
